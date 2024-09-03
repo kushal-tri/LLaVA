@@ -15,7 +15,7 @@ classifiers = [
 dependencies = [
         "torch", "torchvision",
     "transformers>=4.31.0", "tokenizers>=0.14", "sentencepiece", "shortuuid",
-    "accelerate>=0.21.0", "peft", "bitsandbytes",
+    "accelerate>=0.25.0", "peft", "bitsandbytes",
     "pydantic", "markdown2[all]", "numpy", "scikit-learn>=1.2.2",
     "gradio>=3.35.2", "gradio_client>=0.2.9",
     "requests", "httpx==0.24.0", "uvicorn", "fastapi",
